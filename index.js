@@ -80,7 +80,7 @@ app.get("/listSchools", async (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("Hello");
+  res.send("App Deployed...");
 });
 
 app.listen(PORT, () => {
